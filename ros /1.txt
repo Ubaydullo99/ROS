@@ -1,0 +1,8 @@
+Fundamentls of ROS: 
+= understanding basic working or ros and its terminology to understand existing ROS applications and build your own. 
+
+- filesystem level - how ros files are organized on hard disk: 
+metapackages, package, messages, services, codes, and miscellaneous files. 
+
+- computation graph level - peer to peer network that processes all information together. Ros graph concept constitutes:
+nodes, topics, messages, master, parameter server, services, and bags. 
