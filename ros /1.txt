@@ -6,3 +6,14 @@ metapackages, package, messages, services, codes, and miscellaneous files.
 
 - computation graph level - peer to peer network that processes all information together. Ros graph concept constitutes:
 nodes, topics, messages, master, parameter server, services, and bags. 
+
+- communication in ros - how two nodes communicate with each other using ros topics (Topics: One of the methods to communicate and exchange ROS messages between two ROS nodes is called ROS topics. Topics are named buses in which data is exchanged using ROS messages. Each topic will have a specific name, and one node will publish data to a topic and another node can read from the topic by subscribing to it.) whenever there is a subscriber and publisher for the same topic, the master node3. will exchange the publisher URI with the subscriber. This will help both nodes to connect and exchange data. After they've connected, there is no role for the master. The data is not flowing through the master; instead, the nodes are interconnected and exchange messages.
+
+- ros client libraries - used to write ROS nodes. all of ros concepts are implemented in client libraries. we can implement ros with a publisher an subscriber, write service callbacks, . popular ros client libraries in python/c++: roscpp, rospy, roslisp. 
+
+- ros tools - has variety of GUI and command lint tools to inspect and debug messages. 
++ ros visualizer (RViz) - is 3d visualizers available in ros that can visualize 2d 3d values from ros topics and parameters. , it helps to visualize robot models, robot 3d transform data, point cloud, laser/image data, sensor data.
++ rqt_plot - tools for plotting scalar values that are in form of ros topics. 
++ rqt_graph - ROS GI tool can visualize graph of interconnection between ros nodes. 
+
+- ros simulators - Gazebo is dynamic robotic simiulator has wide variety of robot models and extensive sensor support. most of ros simulators are expensive, if you cannot afford it , you can use Gazebo directly without any issue. 
