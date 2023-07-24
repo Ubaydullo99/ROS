@@ -1,4 +1,4 @@
-       Fundamentls of ROS: 
+        Fundamentls of ROS: 
 = understanding basic working or ros and its terminology to understand existing ROS applications and build your own. 
 
 - filesystem level - how ros files are organized on hard disk: 
