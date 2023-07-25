@@ -1,1 +1,7 @@
+Ros 1 - Though ROS-1 has given us the liberty of communicating with complex hardware and
+software components with ease, there are some intricacies involved while producing them
+as a product. For instance, let's say that, in the manufacturing industry, there is a swarm of
+heterogeneous robots (robots of different types—say, mobile robots, robot arms, and so on).
+It is quite difficult to establish communication between them due to the way ROS-1 is
+architectured. This is because ROS-1 doesn't support the multi master concept.
 
