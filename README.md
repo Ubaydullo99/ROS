@@ -1,6 +1,7 @@
 # ROS
 
-![image](https://github.com/Ubaydullo99/ROS/assets/75980506/57a1cadb-647f-4d2e-a474-547ebe869fe7)
+![Screenshot from 2023-07-25 22-29-13](https://github.com/Ubaydullo99/ROS/assets/75980506/7a7d470b-1b76-485d-b157-76a6edae6849)
+
 
 = ROS or, to be more specific, ROS-1, has helped robotics reach a different milestone in the
 open source community. While there were difficulties connecting the hardware and
