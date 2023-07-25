@@ -25,4 +25,7 @@ and comparison:
 
 
 
+Ros-2:
+= ROS-2 is a deterministic effort toward improving the communication network framework that will be used with real-time systems and production-ready solutions. ROS-2 aims to do the following: Provide secure communication between components. Communicate in real time. Connect multiple robots with ease. Improve the quality of communication irrespective of the communication medium. Provide an ROS layer directly onto hardware, such as sensors and embedded boards. Use the latest software improvements
+
 
