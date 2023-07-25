@@ -1,4 +1,14 @@
 # ROS
+= ROS or, to be more specific, ROS-1, has helped robotics reach a different milestone in the
+open source community. While there were difficulties connecting the hardware and
+software and synchronizing them, ROS-1 paved the way for a simple communication
+strategy that has helped the community to connect any sophisticated sensor to a
+microcomputer or microcontroller with ease. Over the past decade, ROS-1 has grown and
+has a huge package list, where each and every package solves a problem either in bits or in
+full, and has eliminated the concept of reinventing the wheel. These packages have led to a
+whole new way of looking at robotics and providing intelligence to the currently available
+systems. Connecting several such smaller packages could create a new complex
+autonomous system on its own.
 
 What this book covers
 - Chapter 1, Getting Started with ROS, is a basic introductory chapter on ROS for beginners.
