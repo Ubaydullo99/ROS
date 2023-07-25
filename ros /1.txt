@@ -24,4 +24,7 @@ nodes, topics, messages, master, parameter server, services, and bags.
 
 
 - Setting up ROS workspace:
-= place where keep ROS packages. catkin system is official build system of ROS, 
+= place where it keep ROS packages. catkin system is official build system of ROS, 
+
+
+
