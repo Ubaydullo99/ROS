@@ -17,3 +17,7 @@ nodes, topics, messages, master, parameter server, services, and bags.
 + rqt_graph - ROS GI tool can visualize graph of interconnection between ros nodes. 
 
 - ros simulators - Gazebo is dynamic robotic simiulator has wide variety of robot models and extensive sensor support. most of ros simulators are expensive, if you cannot afford it , you can use Gazebo directly without any issue. 
+
+
+        Docker:
+= docker can create isolated environments for projects called containers. it looks like virtual machine without need for separate OS on top of hardware layers. it work independently on top of hardware layer sharing resources of host machine. 
