@@ -1,7 +1,28 @@
-Ros 1 - Though ROS-1 has given us the liberty of communicating with complex hardware and
+Ros 1:
+= Though ROS-1 has given us the liberty of communicating with complex hardware and
 software components with ease, there are some intricacies involved while producing them
 as a product. For instance, let's say that, in the manufacturing industry, there is a swarm of
 heterogeneous robots (robots of different types—say, mobile robots, robot arms, and so on).
 It is quite difficult to establish communication between them due to the way ROS-1 is
 architectured. This is because ROS-1 doesn't support the multi master concept.
+
+- Although there are other ways (which we will explore in Chapter 6, Multi-Robot
+Collaboration) we can use to communicate between nodes across the network, there is no
+secure way of communicating between them. Anyone connected to the master node would
+easily be able to gain access to a list of available topics and use or modify them. People
+often use ROS-1 for working on proof-of-concepts or as a quick workaround for research
+interests.
+
+- A marginal line has been drawn between using ROS-1 for prototyping and creating final
+products, and this gap isn't likely to be reduced. This is mainly because ROS-1 isn't realtime. Network connectivity varies between system components while using a wired
+connection (Ethernet) over a wireless connection (Wi-Fi). This could lead to a delay in data
+reception or even loss of data.
+
+- Keeping this in mind, OSRF began its journey toward improving and building the nextgeneration ROS, called ROS-2. It is being developed to fix the risks faced by ROS-1. In this
+chapter, you will be introduced to ROS-2, its differences with ROS-1, and its features. This
+chapter is organized in the same manner as the previous chapter for better understanding
+and comparison:
+
+
+
 
