@@ -28,4 +28,25 @@ and comparison:
 Ros-2:
 = ROS-2 is a deterministic effort toward improving the communication network framework that will be used with real-time systems and production-ready solutions. ROS-2 aims to do the following: Provide secure communication between components. Communicate in real time. Connect multiple robots with ease. Improve the quality of communication irrespective of the communication medium. Provide an ROS layer directly onto hardware, such as sensors and embedded boards. Use the latest software improvements
 
+- ROS-2 follows an industrial standard and implements real-time communication through a concept called DDS implementation. DDS (short for Data Distributed Services) is a proven industry standard by Object Management Groups (OMGs) and it is implemented by many vendors such as RTI's implementation called Connext (https://www.rti.com/ products/), ADLink's implementation, called OpenSplice RTPS (https://github.com/ ADLINK-IST/opensplice), and eProsima's implementation, called Fast RTPS (http://www. eprosima.com/index.php/products-all/eprosima-fast-rtps).
+
+- These standards are used in time-critical applications such as airline systems, hospitals, financial services, and space exploration systems. This implementation aims to simplify the plumbing strategy (the publish-subscribe infrastructure) and make it deterministic across different hardware and software components. This ensures that the user can concentrate on the capabilities and ecosystem more.
+
+
+__
+
+- ROS 2 distributions - after alpha and beta version, stable version is Ardent Apalone. Bouncy Bolson second version, third version is Crsystal Clemmys and Dashing Diademata were released. 
+
+- Supported operating system - mac. linux. windows
+
+- Robots and senors supported in ros 2 - :
+turtlebot2, turtlebot3, mara robot arm, dr robot jaguar 4x4, intel realsense camera, ydliar.
+
+- ros2 - feature stack was written in c++, client libraries were written in c++ and python, 
+
+- Fundamentals of ros2: ros1 - user code would connect to ros client libraries such as raspy and roscpp. they would communicate directly with other nodes from within network. Ros2 - ROS client libraries act like an abstraction layer and connect to another layer that communicates with the network using other nodes through DDS implementation.
+
+
+
+
 
