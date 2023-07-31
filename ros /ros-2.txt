@@ -44,7 +44,7 @@ turtlebot2, turtlebot3, mara robot arm, dr robot jaguar 4x4, intel realsense cam
 
 - ros2 - feature stack was written in c++, client libraries were written in c++ and python, 
 
-- Fundamentals of ros2: ros1 - user code would connect to ros client libraries such as raspy and roscpp. they would communicate directly with other nodes from within network. Ros2 - ROS client libraries act like an abstraction layer and connect to another layer that communicates with the network using other nodes through DDS implementation.
+- Fundamentals of ros2: ros1 - user code would connect to ros client libraries such as raspy and roscpp. they would communicate directly with other nodes from within network. Ros2 - ROS client libraries act like an abstraction layer and connect to another layer that communicates with the network using other nodes through DDS implementation.   
 
 
 
