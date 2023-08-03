@@ -55,7 +55,7 @@ http://design.ros2.org/articles/changes.html
 
 - ROS 2 client libraries - are nothing but api for implementing ros concepts. rclcpp language - faster response, efficiency/ rclpy - prototyping. / rcljava. and common functionalities in c language. need to change the lofic in ros concepts are implemented in code.
 
-
+- Tools - RQT - QT plugins inside ros2 rqt, qt based framework for GUI development for ros. 
 
 
 
