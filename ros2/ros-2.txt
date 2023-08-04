@@ -1,0 +1,58 @@
+Ros 1:
+= Though ROS-1 has given us the liberty of communicating with complex hardware and
+software components with ease, there are some intricacies involved while producing them
+as a product. For instance, let's say that, in the manufacturing industry, there is a swarm of
+heterogeneous robots (robots of different types—say, mobile robots, robot arms, and so on).
+It is quite difficult to establish communication between them due to the way ROS-1 is
+architectured. This is because ROS-1 doesn't support the multi master concept.
+
+- Although there are other ways (which we will explore in Chapter 6, Multi-Robot
+Collaboration) we can use to communicate between nodes across the network, there is no
+secure way of communicating between them. Anyone connected to the master node would
+easily be able to gain access to a list of available topics and use or modify them. People
+often use ROS-1 for working on proof-of-concepts or as a quick workaround for research
+interests.
+
+- A marginal line has been drawn between using ROS-1 for prototyping and creating final
+products, and this gap isn't likely to be reduced. This is mainly because ROS-1 isn't realtime. Network connectivity varies between system components while using a wired
+connection (Ethernet) over a wireless connection (Wi-Fi). This could lead to a delay in data
+reception or even loss of data.
+
+- Keeping this in mind, OSRF began its journey toward improving and building the nextgeneration ROS, called ROS-2. It is being developed to fix the risks faced by ROS-1. In this
+chapter, you will be introduced to ROS-2, its differences with ROS-1, and its features. This
+chapter is organized in the same manner as the previous chapter for better understanding
+and comparison:
+
+
+
+Ros-2:
+= ROS-2 is a deterministic effort toward improving the communication network framework that will be used with real-time systems and production-ready solutions. ROS-2 aims to do the following: Provide secure communication between components. Communicate in real time. Connect multiple robots with ease. Improve the quality of communication irrespective of the communication medium. Provide an ROS layer directly onto hardware, such as sensors and embedded boards. Use the latest software improvements
+
+- ROS-2 follows an industrial standard and implements real-time communication through a concept called DDS implementation. DDS (short for Data Distributed Services) is a proven industry standard by Object Management Groups (OMGs) and it is implemented by many vendors such as RTI's implementation called Connext (https://www.rti.com/ products/), ADLink's implementation, called OpenSplice RTPS (https://github.com/ ADLINK-IST/opensplice), and eProsima's implementation, called Fast RTPS (http://www. eprosima.com/index.php/products-all/eprosima-fast-rtps).
+
+- These standards are used in time-critical applications such as airline systems, hospitals, financial services, and space exploration systems. This implementation aims to simplify the plumbing strategy (the publish-subscribe infrastructure) and make it deterministic across different hardware and software components. This ensures that the user can concentrate on the capabilities and ecosystem more.
+
+
+
+
+- ROS 2 distributions - after alpha and beta version, stable version is Ardent Apalone. Bouncy Bolson second version, third version is Crsystal Clemmys and Dashing Diademata were released. 
+
+- Supported operating system - mac. linux. windows
+
+- Robots and senors supported in ros 2 - :
+turtlebot2, turtlebot3, mara robot arm, dr robot jaguar 4x4, intel realsense camera, ydliar.
+
+- ros2 - feature stack was written in c++, client libraries were written in c++ and python, 
+
+- Fundamentals of ros2: ros1 - user code would connect to ros client libraries such as raspy and roscpp. they would communicate directly with other nodes from within network. Ros2 - ROS client libraries act like an abstraction layer and connect to another layer that communicates with the network using other nodes through DDS implementation.   
+
+- Communication in ROS-2 - DDS(DDSI-RTPS -real time publish subscribe protocol)- idea is to establish secure and efficient communication between nodes, even in heterogeneous platforms. Data reader and writers publish or subsribe to a topic with specialez message type to reach communication 
+in ros 2. 
+
+# changes bet. ros1 and ros2
+http://design.ros2.org/articles/changes.html
+
+
+- ROS 2 client libraries - are nothing but api for implementing ros concepts. rclcpp language - faster response, efficiency/ rclpy - prototyping. / rcljava. and common functionalities in c language. need to change the lofic in ros concepts are implemented in code.
+
+- Tools - RQT - QT plugins inside ros2 rqt, qt based framework for GUI development for ros. 
