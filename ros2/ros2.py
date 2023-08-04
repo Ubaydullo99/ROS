@@ -73,5 +73,12 @@ initros2
 ros2 run demo_nodes_py listener
 # You should see talker saying that it's Publishing: 'Hello World: 1,2...' and listener saying I heard: [Hello World: <respective count>]
 
+### ROS2 workspace ??
+### Writing ROS2 nodes ???
+### Bridging ros1 and ros2 ???
+
+
+
+
 
 
